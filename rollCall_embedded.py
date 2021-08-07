@@ -71,7 +71,7 @@ def reg():
 
 reg()
 #選擇第一隻攝影機
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("/dev/video10")
 #調整預設影像大小
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
